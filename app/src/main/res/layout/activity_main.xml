@@ -10,6 +10,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/androidparty"
+            android:scaleType="centerCrop"
     />
 
     <TextView
@@ -19,7 +20,8 @@
             android:padding="8dp"
             android:textStyle="bold"
             android:textSize="18sp"
-            android:textColor="@android:color/holo_blue_dark"/>
+            android:textColor="@android:color/holo_blue_dark"
+            android:fontFamily="sans-serif-light"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -31,6 +33,7 @@
             android:textStyle="bold"
             android:textSize="18sp"
             android:textColor="@android:color/holo_red_dark"
+            android:fontFamily="sans-serif-condensed"
     />
 
 </RelativeLayout>
